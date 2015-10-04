@@ -42,6 +42,8 @@ typedef struct {
    call frame it setup.
 */
 #define CO_NOFREE       0x0040
+/* The CO_DEBUG_OPCODES prints every opcode to stdout when set */
+#define CO_DEBUG_OPCODES
 
 #if 0
 /* This is no longer used.  Stopped defining in 2.5, do not re-use. */
